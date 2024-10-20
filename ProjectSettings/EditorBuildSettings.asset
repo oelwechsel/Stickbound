@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a3a815cbf6508d74c90347f43cf2d8b1
+  - enabled: 1
+    path: Assets/Scenes/Blockout Lvl. 1.unity
+    guid: 61350afd1b8b7a24eaac3eaafe588010
+  - enabled: 1
+    path: Assets/Scenes/EndMenuScreen.unity
+    guid: 6294c734d70ec1444843ddff822232c8
+  - enabled: 0
+    path: Assets/Scenes/StickboundLOL.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  m_configObjects: {}

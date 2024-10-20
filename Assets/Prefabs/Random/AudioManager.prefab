@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2982150407033424413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2982150407033424410}
+  - component: {fileID: 2982150407033424411}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2982150407033424410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2982150407033424413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2982150407033424411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2982150407033424413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60736a3c5adea814db8828473af365df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - nameOfSoundClip: Theme
+    clip: {fileID: 8300000, guid: b870e53d566c1e94a817cb9a14fee1e5, type: 3}
+    volume: 0.045
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: PlayerMove
+    clip: {fileID: 8300000, guid: 7b83e01d8920939448106a9c1a8c5009, type: 3}
+    volume: 0.051
+    pitch: 0.74
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: PlayerHit
+    clip: {fileID: 8300000, guid: 6b75384920b57524bb7fb89dcdbf1a52, type: 3}
+    volume: 0.147
+    pitch: 0.91
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: PlayerAttack
+    clip: {fileID: 8300000, guid: eb5820e74e7d6834aa653663278befcf, type: 3}
+    volume: 0.184
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: PlayerJump
+    clip: {fileID: 8300000, guid: 9184a0cc89570044eb0e02602cb90e69, type: 3}
+    volume: 0.017
+    pitch: 0.7
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: PlayerDash
+    clip: {fileID: 8300000, guid: d0f6535da60aa31468bd700a80ee222b, type: 3}
+    volume: 0.089
+    pitch: 0.74
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: CheckPointAberEigDash
+    clip: {fileID: 8300000, guid: 8e56a742bc4b6124d87a93741246b441, type: 3}
+    volume: 0.136
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: EnemyMeleeAttack
+    clip: {fileID: 8300000, guid: 4999f169ffe325f46a89d608c5604abe, type: 3}
+    volume: 0.125
+    pitch: 0.74
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: EnemyMeleeIdle
+    clip: {fileID: 8300000, guid: e58c10d46daa21040a12a4a99e64fdde, type: 3}
+    volume: 0.125
+    pitch: 0.74
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: CaveBoss
+    clip: {fileID: 8300000, guid: 644d6972dcd280b4685ca6d810025ed9, type: 3}
+    volume: 0.324
+    pitch: 0.74
+    loop: 1
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: Enemy2Idle
+    clip: {fileID: 8300000, guid: 2e8738c3de7538245818f1584b5152ee, type: 3}
+    volume: 0.074
+    pitch: 0.78
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0.266
+  - nameOfSoundClip: EnemyRangedAttack
+    clip: {fileID: 8300000, guid: b87c7b75aa2162740add910459bce67e, type: 3}
+    volume: 0.158
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: EnemyDestroyed
+    clip: {fileID: 8300000, guid: 3d6757fe93f17e14bac52d1cdc082b3b, type: 3}
+    volume: 0.158
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: BossMeleeAttack
+    clip: {fileID: 8300000, guid: ff189091d1eaf1b47948fc3f7c3123fc, type: 3}
+    volume: 0.091
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: BossMusic
+    clip: {fileID: 8300000, guid: 5f8f18d1d795a464bbd26a680f0d7886, type: 3}
+    volume: 0.158
+    pitch: 0.89
+    loop: 1
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  footstepSounds:
+  - nameOfSoundClip: Footstep1
+    clip: {fileID: 8300000, guid: 6e048338c45edb746a0c905cc3a4dc5e, type: 3}
+    volume: 0.043
+    pitch: 0.75
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: Footstep2
+    clip: {fileID: 8300000, guid: 7b83e01d8920939448106a9c1a8c5009, type: 3}
+    volume: 0.071
+    pitch: 0.61
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: Footstep3
+    clip: {fileID: 8300000, guid: 6815a542d812b4a45bc35f0ce9b5b620, type: 3}
+    volume: 0.071
+    pitch: 0.61
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  - nameOfSoundClip: Footstep4
+    clip: {fileID: 8300000, guid: c51e18b4df828ef43a3a217d4ea6edd0, type: 3}
+    volume: 0.071
+    pitch: 0.61
+    loop: 0
+    source: {fileID: 0}
+    volumeSafe: 0
+    blend: 0
+  changeMusicSkript1: {fileID: 0}
